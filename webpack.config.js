@@ -14,7 +14,8 @@ module.exports = {
   output: {
     path: resolveApp('./build'),
     filename: 'modal.js',
-    library: 'Modal'
+    library: 'Modal',
+    publicPath: 'build/modal.js'
   },
   module: {
     rules: [

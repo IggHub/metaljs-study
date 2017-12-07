@@ -14,12 +14,14 @@
 		"test"
 	],
 	"scripts": {
-		"build": "webpack"
+		"build": "webpack",
+		"start": "webpack-dev-server"
 	},
 	"keywords": [
 		"metal"
 	],
 	"dependencies": {
+		"axios": "0.17.1",
 		"bootstrap": "^3.3.7",
 		"http-server": "^0.9.0",
 		"metal-component": "^2.0.0-rc.11",
