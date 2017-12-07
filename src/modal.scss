@@ -1,2 +1,54 @@
 .myModal {
 }
+
+.container {
+  margin-top: 40px;
+}
+.blog-post {
+  margin-bottom: 40px;
+
+  .date {
+    background-color: #fdfdfd;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 9;
+    color: #2c2c2c;
+  }
+
+  .blog-content {
+    padding: 15px 28px;
+    border: 1px solid #f5f5f5;
+  }
+
+  h4 {
+    margin: 20px 0;
+    letter-spacing: 1px;
+
+    a {
+      color: #333;
+    }
+  }
+
+  .post-meta {
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #F5F5F5;
+
+    span {
+      color: #CCC;
+    }
+  }
+
+  .blog-element {
+    overflow: hidden;
+    max-height: 290px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
